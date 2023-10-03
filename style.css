@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+/* styling first section */
+.backimg {
+    height: 100%;
+    width: 100%;
+    opacity: 0.35;
+    position: relative;
+}
+
+.first {
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+.navbar img {
+    height: 105px;
+    width: 180px;
+    position: absolute;
+    left: 10.5%;
+    top: -1.5%;
+}
+
+.navbar {
+    top: 0%;
+}
+
+.btn1 {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #000000;
+    padding: 5px 45px 5px 20px;
+    border: solid #ffffff 0.1px;
+    text-decoration: none;
+    position: absolute;
+    top: 5%;
+    left: 71%;
+    opacity: 0.8;
+}
+
+.btn1:hover {
+    background: #252525;
+    text-decoration: none;
+    border: solid #ffffff 3px;
+}
+
+.btn1 img {
+    height: 8px;
+    width: 10px;
+    top: 9px;
+    left: 90px;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.btn2 {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #E50914;
+    padding: 6px 18px 6px 18px;
+    text-decoration: none;
+    position: absolute;
+    top: 4.5%;
+    left: 81.3%;
+}
+
+.btn2:hover {
+    background: #cc222e;
+    text-decoration: none;
+}
+
+.mid h5 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.mid {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 35%;
+    width: 100%;
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.mid h1 {
+    width: 70%;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.btn3 {
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    background: #E50914;
+    padding: 12px 30px 12px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 0;
+}
+
+.btn3:hover {
+    background: #c71a22;
+    text-decoration: none;
+}
+
+.btn3 img {
+    margin-left: 10px;
+    height: 20px;
+    width: 13px;
+}
+
+/* styling hr */
+hr{
+    height: 8px;
+    background-color: #2e2e2e;
+    margin: 0;
+    border: 0;
+}
+
+/* styling second section */
+.allblack{
+    background-color: #000000;
+    height: 500px;
+    display: flex;
+}
+
+.allblack div{
+    width: 50%;
+}
+
+.allblack div h1{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-top: 20%;
+    margin-bottom: 0;
+    padding-left: 20%;
+}
+
+.allblack div h5{
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    width: 80%;
+    padding-left:20% ;
+    margin-top: 15px;
+}
+
+.allblack div img{
+    margin-top:10%;
+}
+
+/* styling third section */
+.thirdblack{
+    background-color: #000000;
+    height: 530px;
+    display: flex;
+}
+
+.thirdblack div{
+    width: 50%;
+}
+
+.thirdblack div h1{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-bottom: 0;
+    margin-top: 20%;
+    width: 80%;
+}
+
+.thirdblack div h5{
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    width: 80%;
+    margin-top: 15px;
+}
+
+.thirdblack div img{
+    padding-left: 32%;
+    padding-top: 12%;
+}
+
+/* styling fourth section */
+.fourthblack{
+    background-color: #000000;
+    height: 500px;
+    display: flex;
+}
+
+.fourthblack div{
+    width: 50%;
+}
+
+.fourthblack div h1{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-top: 23%;
+    margin-bottom: 0;
+    padding-left: 23%;
+}
+
+.fourthblack div h5{
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    width: 80%;
+    padding-left:23% ;
+    margin-top: 15px;
+}
+
+.fourthblack div img{
+    margin-top:11%;
+}
+
+/* styling fifth section */
+.fifthblack{
+    background-color: #000000;
+    height: 530px;
+    display: flex;
+}
+
+.fifthblack div{
+    width: 50%;
+}
+
+.fifthblack div h1{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-bottom: 0;
+    margin-top: 20%;
+    width: 70%;
+}
+
+.fifthblack div h5{
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    width: 80%;
+    margin-top: 15px;
+}
+
+.fifthblack div img{
+    padding-left: 22%;
+    padding-top: 3%;
+}
+
+/* styling sixth section*/
+.sixth{
+    background-color: #000000;
+    text-align: center;
+}
+
+.sixth h1{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+.sixth div{
+    background-color: #2e2e2e;
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    text-align: left;
+}
+
+.sixth div h5{
+    color: #ffffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 1%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sixth .btn3{
+    margin-top: 50px;
+    border-color: #000000;
+    border: 0;
+    margin-bottom: 60px;
+}
+
+.sixth div i{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top:-90px;
+    left: 970px;
+}
+
+.sixth div:hover{
+    background-color: #424242;
+}
+
+/* styling seventh section */
+.seventh{
+    background-color: #000000;
+    padding-bottom: 80px;
+}
+
+.seventh h2{
+    color: #cacaca;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.seventh .links{
+    display: flex;
+    padding-left:12%;
+}
+
+.seventh .links div{
+    width:23%;
+}
+
+.seventh .top{
+    padding-top: 60px;
+    padding-left:12%;
+    padding-bottom: 20px;
+}
+
+.btn {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #c7c7c7;
+    font-size: 16px;
+    background: #0f0f0f;
+    padding: 5px 15px 5px 20px;
+    border: solid #b1b0b0 0.1px;
+    text-decoration: none;
+    margin-left: 12%;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: #252525;
+    text-decoration: none;
+    border: solid #ffffff 3px;
+}
+
+.btn img {
+    height: 8px;
+    width: 10px;
+    top: 9px;
+    left: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.seventh h3{
+    color: #cacaca;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-left: 12%;
+    margin-top: 20px;
+}
